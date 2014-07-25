@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en-us" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    
+    <meta name="author" content="Martin Metodiev" />
+    <meta name="reply-to" content="metodiev.martin@gmail.com" />
+    <meta name="copyright" content="© 2008 www.mARTinmetodiev.com. All rights reserved." />
+    <meta name="distribution" content="local" />
+    <meta name="revisit-after" content="7 days" />
+	<meta name="robots" content="noindex">
+    <meta name="description" content="Natural designs by MARTIN DESIGN" />
+    <meta name="rating" content="general" />
+    <meta name="pubdate" content="2008-10-28" />
+    <meta name="keywords" content="Martin Metodiev, mARTin Design, Design, Portfolio, Web 2, Graphic, Corporate Identity, Natural, Fresh, Fruit, Colorful, Yellow, Orange" />
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    
+    <title>Natural designs by MARTIN DESIGN / Contact me</title>
+    
+	<script type="text/javascript">
+		function formSent() {
+			document.getElementById('formRequest').style.display='none';
+			document.getElementById('loadingImage').style.display='block';
+			setTimeout('window.top.Shadowbox.close()',5000);
+			}					
+	</script>
+</head>
+
+<body>
+            <div id="contactmePage">
+            	<div id="contactmePageContent"> Fill out the text boxes below to make an enquiry.<br />
+            	  I will contact you as soon as possible.<br />
+            	  <br />
+       	      Alternatively you can find me on my:<br />
+                  <img src="images/bullet.gif" alt="Email" width="6" height="6" /> Email:	<a href="mailto:metodiev.martin@gmail.com"><strong>metodiev.martin@gmail.com</strong></a><br />
+                  <img src="images/bullet.gif" alt="Phone" width="6" height="6" /> Phone:	<strong>+359 (88) 7741 192</strong><br />
+                  <img src="images/bullet.gif" alt="SKYPE" width="6" height="6" /> SKYPE:	
+                  <script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+                  <a href="skype:metodiev.martin?chat"><strong>metodiev.martin</strong></a><br />
+                  <img src="images/bullet.gif" alt="ICQ" width="6" height="6" /> ICQ:	<strong>10794209</strong>
+                  <p>
+			<form target="formFrame" action="contactrequest.php" method="post" name="formRequest" id="formRequest">
+                <div align="center">
+  <input name="s[Name]" type="text" class="inputText" id="nameInput" onFocus="if(this.value=='Your name...') this.value=''" onBlur="if(this.value=='') this.value='Your name...'" value="Your name..." />
+  <input name="s[Email]" type="text" class="inputText" id="emailInput" onFocus="if(this.value=='Your email...') this.value=''" onBlur="if(this.value=='') this.value='Your email...'" value="Your email..." />
+                  <textarea name="s[Message]" class="inputTextarea" id="messageArea" onfocus="if(this.value=='Your message...') this.value=''" onblur="if(this.value=='') this.value='Your message...'">Your message...</textarea>
+                  <br />
+                  <input type="hidden" name="emailTo" value="metodiev.martin@gmail.com" />
+                  <input type="hidden" name="subject" value="CONTACT Request" />
+                  <input onfocus="blur()" class="inputButton" name="Submit" type="submit" id="Submit" value="" onclick="formSent()" />
+              </div>
+			</form>
+            <div id="loadingImage"><img src="images/loading.gif" alt="Loading" width="32" height="32" /></div>
+            <IFRAME id="formFrame" frameborder="0" width="0px" height="0px" name="formFrame" src=""></IFRAME>
+                    </p>
+           	  </div>
+            </div><!--contactmePage-->
+</body>
+</html>

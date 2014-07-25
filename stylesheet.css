@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*TAGS*/
+
+html {
+	background:url(images/htmlBackground.jpg) 0 0 repeat-x;
+	background-color:#FFFFFF;
+}
+
+body {
+	width:100%;
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+a {
+	text-decoration:none;
+	color: #666666;
+	cursor:pointer;
+	outline-style:none;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #f58220;
+	cursor:pointer;
+	outline-style:none;
+}
+
+h1, h2, h3 {
+	margin:0;
+	padding:0;
+	text-indent:-9999px;
+}
+
+ul, li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+
+/*HEADER*/
+
+#headerBox {
+	margin:0 auto;
+	width:900px;
+	height:314px;
+	background:url(images/headerBackground.jpg) 0 0 no-repeat;
+	position:relative;
+}
+
+
+
+/*Menu*/
+
+#mainMenu li a {
+	text-indent:-9999px;
+}
+
+#whatidoItem {
+	position:absolute;
+	top:140px;
+	left:328px;
+	width:108px;
+	height:35px;
+	background:url(images/whatidoItem.jpg) 0 0 no-repeat;
+}
+
+#whatidoItem:hover {
+	background:none;
+}
+
+#whoamiItem {
+	position:absolute;
+	top:175px;
+	left:329px;
+	width:107px;
+	height:24px;
+	background:url(images/whoamiItem.jpg) 0 0 no-repeat;
+}
+
+#whoamiItem:hover {
+	background:none;
+}
+
+#whymeItem {
+	position:absolute;
+	top:199px;
+	left:317px;
+	width:119px;
+	height:26px;
+	background:url(images/whymeItem.jpg) 0 0 no-repeat;
+}
+
+#whymeItem:hover {
+	background:none;
+}
+
+#portfolioItem {
+	position:absolute;
+	top:234px;
+	left:317px;
+	width:119px;
+	height:26px;
+	background:url(images/portfolioItem.jpg) 0 0 no-repeat;
+}
+
+#portfolioItem:hover {
+	background:none;
+}
+
+#contactmeItem {
+	position:absolute;
+	top:260px;
+	left:317px;
+	width:102px;
+	height:26px;
+	background:url(images/contactmeItem.jpg) 0 0 no-repeat;
+}
+
+#contactmeItem:hover {
+	background:none;
+}
+
+
+
+/*Recent Project*/
+
+#recentProject {
+	position:absolute;
+	top:22px;
+	left:465px;
+	width:435px;
+	height:292px;
+	background:url(images/recentProject.jpg) 0 0 no-repeat;
+}
+
+#recentProject:hover {
+	background:none;
+}
+
+
+
+/*CONTENT STRUCTURE*/
+
+#contentBox {
+	margin:0 auto;
+	width:900px;
+	height:270px;
+	background:url(images/contentBackground.jpg) 0 0 no-repeat;
+	position:relative;
+}
+
+#whatIDoBox {
+	visibility:hidden;
+	position:absolute;
+	top:16px;
+	left:0px;
+	width:232px;
+	height:83px;
+	background:url(images/whatIDo.jpg) 0 0 no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:justify;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:72px;
+}
+
+#whoAmIBox {
+	visibility:hidden;
+	position:absolute;
+	top:47px;
+	left:302px;
+	width:235px;
+	height:82px;
+	background:url(images/whoAmI.jpg) 0 0 no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+	text-align:justify;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:58px;
+}
+
+#whyMeBox {
+	visibility:hidden;
+	position:absolute;
+	top:63px;
+	left:607px;
+	width:233px;
+	height:82px;
+	background:url(images/whyMe.jpg) 0 0 no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#333333;
+	text-align:justify;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:58px;
+}
+
+
+
+/*CONTACT PAGE*/
+
+.hiddenPages {
+	display:none;
+}
+
+#contactmePageContent {
+	display:block;
+	width:260px;
+	height:430px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top: 48px;
+	background:url(images/contactmeBackground.jpg) 0 0 no-repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:justify;
+	color:#333333;
+	position:relative;
+}
+
+#formRequest #nameInput{
+	background:url(images/nameInput.jpg) 0 0 no-repeat;
+	position:absolute;
+	top:180px;
+	left:74px;
+}
+
+#formRequest #emailInput{
+	background:url(images/emailInput.jpg) 0 0 no-repeat;
+	position:absolute;
+	top:213px;
+	left:74px;
+}
+
+#formRequest .inputText {
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	clear:both;
+	color:#333333;
+	cursor:text;
+	width: 152px;
+	height:16px;
+	border:0px;
+}
+
+#formRequest .inputText:hover {
+	color:#F58220;
+	cursor:text;
+}
+
+#formRequest .inputTextarea{
+	width:250px;
+	height:162px;
+	border:0px;
+	background:url(images/messageInput.jpg) 0 0 no-repeat;
+	padding:5px;
+	font-family: Tahoma, Verdana, Arial;
+	font-size:11px;
+	color:#333333;
+	font-weight:normal;
+	cursor:text;
+	text-align:justify;
+	position:absolute;
+	top:246px;
+	left:20px;
+}
+
+#formRequest .inputTextarea:hover {
+	color:#F58220;
+	cursor:text;
+}
+
+#formRequest .inputButton{
+	width: 83px;
+	height:22px;
+	border:0px;
+	background:url(images/sendButton.jpg) 0 0 no-repeat;
+	cursor:pointer;
+	position:absolute;
+	bottom:20px;
+	left:108px;	
+	}
+
+#formRequest .inputButton:hover{
+	cursor:pointer;
+	color:#FFFF99;
+	background:url(images/sendButton.jpg) 0 -22px no-repeat;
+}
+
+#loadingImage {
+	width:32px;
+	height:32px;
+	position:absolute;
+	top:300px;
+	left:134px;
+	display:none;
+}
+
+
+
+/*VALID*/
+
+#validBox {
+	position:absolute;
+	width:180px;
+	height:32px;
+	bottom:20px;
+	right:30px;
+}
+
+
+
+/*FOOTER*/
+
+#footerBox {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:900px;
+	height:20px;
+}
+
+#htmlMenu {
+	width:400px;
+	height:20px;
+	float:left;
+	line-height:20px;
+	font-family:Tahoma, Verdana, Arial;
+	font-weight:bold;
+	font-size:11px;
+	color:#333333;
+}
+
+#htmlMenu li {
+	display:inline;
+}
+
+#player {
+	position:absolute;
+	top:-1000px;
+	width:100px;
+	height:20px;
+	float:left;
+	line-height:20px;
+	text-align:center;
+}
+
+#copyright {
+	width:400px;
+	height:20px;
+	float:right;
+	line-height:20px;
+	font-family:Tahoma, Verdana, Arial;
+	font-size:10px;
+	color:#999999;
+	text-align:right;
+}
+
+
+
+/*SPECIAL*/
+
+.spacer {
+	clear:both;
+	height:0pt;
+	font-size:0pt;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	width:100px;
+}
+
+#countersBox {
+	display:none;
+}
+
+#tooltip{
+	position:absolute;
+	font-family: Tahoma, Verdana, Arial;
+	font-size:10px;
+	background:url(images/tooltipBackground.gif) 0 0 repeat-x;
+	background-color:#f58220;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+    border: 0px solid #fbc825;
+}	
+
+.bullet {
+	padding-left:5px;
+	padding-bottom:1px;
+}
+
+ul#off {
+	height:5em;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	width:37em;
+}
+
+ul#off li {
+	display:block;
+	float:left;
+	height:2em;
+	margin-right:0.2em;
+	width:7em;
+}
+
+ul.seo_link {
+	position: absolute;
+	z-index: -1;
+}
+
+ul.seo_link,
+ul.seo_link li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.seo_link li a {
+	float: left;
+	text-indent: -9999px;
+}
